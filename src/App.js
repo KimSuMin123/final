@@ -17,8 +17,10 @@ function App() {
 
   return (
     <div style={{margin: "50px 50px"}}>
-      <label>BackgroundColor : {colorCode} </label>
-      <input value={colorCode} onChange={changeText}/>
+      <label>
+        BackgroundColor : {colorCode}    
+        <input value={colorCode} onChange={changeText}/>   
+      </label>
       <button onClick={applyColor}>적용</button>
     </div>
   );
